@@ -471,18 +471,14 @@ color: #43c4da;
 }
 
 #item_gumball {
-width: 20vw;          
-  max-width: 110px;     
-  height: 165px;        
+width: 20vw;                 
   display: flex;
   justify-content: center;
   align-items: flex-end; 
 }
 #item_darwin,
 #item_anais {
-  width: 20vw;          
-  max-width: 140px;     
-  height: 165px;        
+  width: 20vw;                 
   display: flex;
   justify-content: center;
   align-items: flex-end; 
@@ -524,6 +520,7 @@ width: 20vw;
   border-radius: 2px;
 
 }
+
 
 
 
