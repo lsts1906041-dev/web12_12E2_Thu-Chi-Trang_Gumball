@@ -3,6 +3,7 @@ Website được thiết kế theo chủ đề phim hoạt hình The Amazing Wor
 Nội dung gồm: giới thiệu phim, nhân vật, các tập phim, gallery hình ảnh và phần credits. Phong cách thiết kế vui nhộn, màu sắc tươi sáng đúng tinh thần hoạt hình.
 
 Cách chạy website:
+
 --> Cách 1: Chạy online
 Vào link GitHub Pages: https://lsts1906041-dev.github.io/web12_12E2_Thu-Chi-Trang_Gumball/
 
