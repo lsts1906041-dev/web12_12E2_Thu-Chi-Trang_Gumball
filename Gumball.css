@@ -477,13 +477,13 @@ color: #43c4da;
 }
 
 #item_darwin {
-    max-width: 120%;
+    max-width: 80%;
     width: 170px;
     height: auto;
 }
 
 #item_anais {
-    max-width: 100%;
+    max-width: 80%;
     width: 170px;
     height: auto;
 }
@@ -516,4 +516,5 @@ color: #43c4da;
   border-radius: 2px;
 
 }
+
 
