@@ -1,11 +1,12 @@
 Chủ đề:
-Website được thiết kế theo chủ đề phim hoạt hình The Amazing World of Gumball. Nội dung gồm: giới thiệu phim, nhân vật, các tập phim, gallery hình ảnh và phần credits. Phong cách thiết kế vui nhộn, màu sắc tươi sáng đúng tinh thần hoạt hình.
+Website được thiết kế theo chủ đề phim hoạt hình The Amazing World of Gumball. 
+Nội dung gồm: giới thiệu phim, nhân vật, các tập phim, gallery hình ảnh và phần credits. Phong cách thiết kế vui nhộn, màu sắc tươi sáng đúng tinh thần hoạt hình.
 
 Cách chạy website:
-- Cách 1: Chạy online
+--> Cách 1: Chạy online
 Vào link GitHub Pages: https://lsts1906041-dev.github.io/web12_12E2_Thu-Chi-Trang_Gumball/
 
-- Cách 2: Chạy trên máy
+--> Cách 2: Chạy trên máy
 - Tải project về máy
 - Giải nén
 - Mở file index.html bằng trình duyệt (Chrome, Edge, Firefox)
