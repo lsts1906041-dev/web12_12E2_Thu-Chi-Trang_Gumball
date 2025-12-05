@@ -471,8 +471,18 @@ color: #43c4da;
 }
 
 #item_gumball {
-    width: 80%;
-    height: 80%;
+    width: 130px;
+    height: 195px;
+}
+
+#item_darwin {
+    width: 170px;
+    height: 195px;
+}
+
+#item_anais {
+    width: 170px;
+    height: 195px;
 }
 
 .row {
@@ -501,4 +511,5 @@ color: #43c4da;
   border-bottom: 25px solid #ffffff;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   border-radius: 2px;
+
 }
