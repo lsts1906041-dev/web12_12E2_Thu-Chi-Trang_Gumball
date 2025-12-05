@@ -471,21 +471,29 @@ color: #43c4da;
 }
 
 #item_gumball {
-    max-width: 70%;
-    width: 130px;
-    height: 195px;
+width: 30vw;          
+  max-width: 140px;     
+  height: 195px;        
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
 }
-
-#item_darwin {
-    max-width: 90%;
-    width: 170px;
-    height: 195px;
-}
-
+#item_darwin,
 #item_anais {
-    max-width: 90%;
-    width: 170px;
-    height: 195px;
+  width: 30vw;          
+  max-width: 170px;     
+  height: 195px;        
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+}
+
+#item_gumball img,
+#item_darwin img,
+#item_anais img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain; 
 }
 
 .row {
@@ -516,6 +524,7 @@ color: #43c4da;
   border-radius: 2px;
 
 }
+
 
 
 
