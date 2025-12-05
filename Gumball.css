@@ -491,8 +491,8 @@ width: 30vw;
 #item_gumball img,
 #item_darwin img,
 #item_anais img {
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 40%;
+  max-height: 40%;
   object-fit: contain; 
 }
 
@@ -524,6 +524,7 @@ width: 30vw;
   border-radius: 2px;
 
 }
+
 
 
 
