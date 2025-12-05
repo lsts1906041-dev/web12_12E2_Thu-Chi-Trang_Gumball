@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 2rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.heading p{
+    font-size: 1.1rem;
+    font-style: italic;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.heading--white{
+color: #fd7f2a;
+}
+
+.heading--white p{
+color: #ffb9b9;
+}
+
+.spacing {
+    padding: 85px 20px;
+}
+
+/* header */
+header{
+    background-color: #43c4da;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9999;
+    width: 100%
+}
+
+header ul{
+    margin: 0;
+}
+
+.nav__item{
+    z-index: 9999;
+}
+
+header > nav > ul > li{
+    list-style: none;
+}
+
+header > nav > ul > li:hover{
+    background-color: #f1d2b6;
+}
+header > nav > ul > li:hover a{
+    color: black;
+}
+
+header > nav > ul > li:hover i{
+    color: black;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav > ul a{
+    text-decoration: none;
+    padding: 12px 24px;
+    display: block;
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+header nav > ul a:hover{
+    background-color: #f1d2b6;
+    color: black
+}
+
+.header__search > i{
+    color: white;
+    font-size: 1.1rem;
+    padding: 14px 24px
+}
+.header__search > i:hover{
+    background-color: #fd7f2a;
+}
+.nav__more{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.nav__more .nav__item{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    opacity: 0;
+}
+
+.nav__more:hover .nav__item{
+    opacity: 1;
+}
+
+.nav__more > a{
+    padding-right: 5px;
+}
+
+.nav__more > i{
+    color: white;
+    padding-right: 24px;
+}
+
+.nav__more .nav__item, a{
+    color: black;
+    text-transform: capitalize;
+    display: block;
+    padding: 10px 5px;
+}
+
+/*Carousel*/
+.carousel .carousel-item{
+    height: 700px;
+}
+
+.d-block w-100 {
+    text-shadow: #000;
+}
+
+/*Plot*/
+.Plot {
+    background-color: rgb(208, 241, 255);
+}
+
+.Plot h1{
+     color: rgb(209, 62, 103);
+}
+
+.heading p{
+    color:  #124c57;
+    font-weight: bold;
+}
+
+.Plot__Content{
+    max-width: 800px;
+    margin:0 auto
+}
+
+.Plot__Content > p{
+    text-align: justify;
+    line-height: 1.2rem;
+    word-spacing: 1px;
+}
+
+.Plot__Characters {
+    max-width: 800px;  
+    margin: 40px auto;  
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;          
+}
+
+.Plot__Item{
+    width: 160px;
+    text-align: center;
+}
+
+.Plot__Item h5{
+    font-size: 1rem;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.Plot__Item img{
+    width: 100%;
+    height: 180px;
+}
+
+/* Episode*/
+.episode {
+background-color: #faf0f6;
+}
+
+.episode_content{
+max-width: 800px;
+margin: 0 auto;
+}
+
+.seasons{
+background-color: #fff;
+margin: 25px 0;
+}
+
+.seasons ul{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.seasons ul li{
+display: flex;
+border-bottom: 1px solid;
+}
+
+.seasons li p{
+opacity: 0.6;
+margin: 15px;
+}
+
+.seasons li .seasoncompleted{
+opacity: 1;
+background-color: #43c4da;
+color: #fff;
+padding: 0 7px;
+}
+
+.seasons li .season44{
+opacity: 1;
+margin-left: auto;
+margin-right: 30px;
+background-color: #000;
+padding: 2px 10px;
+color: #fff;
+border-radius: 50%;
+}
+
+.watchepisode{
+display: flex;
+justify-content: space-between;
+}
+
+.episodeitem{
+background-color: #fff;
+width: 32%;
+}
+
+.episodeitem img{
+width: 100%;
+}
+
+.episodeitem h6{
+font-size: 1.1rem;
+padding: 20px 10px;
+margin: 0;
+}
+
+.episodeitem p:first-of-type{
+opacity: 0.6;
+padding: 0 0 20px 10px;
+}
+
+.episodeitem p{
+margin: 0;
+}
+
+.episodeitem p:last-of-type{
+padding-left: 10px;
+line-height: 1.4rem;
+}
+
+.episodeitem button{
+padding: 10px 20px;
+margin: 15px 10px;
+border: none;
+background-color: #000;
+color: #fff;
+}
+
+.episodeitem button:hover{
+background-color: #ccc;
+color: #000;
+}
+
+/*The rest*/
+.credits_content {
+display: flex;
+justify-content: space-between;
+max-width: 800px;
+margin: 0 auto;
+}
+.credits_heading {
+text-align: center;
+}
+
+#gumball {
+color: #43c4da;
+}
+
+#darwin {
+color: #fd7f2a;
+}
+
+footer {
+text-align: center;
+margin-bottom: 85px;
+}
+
+.footer_icon {
+width: 100%;
+font-size: 1.5rem;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+footer p {
+color: #717171;
+}
+
+.form {box-sizing: border-box;}
+
+.open_button {
+background-color: #f1d2b6;
+color: black;
+font-weight: 600;
+font-style: italic;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+opacity: 1;
+position: fixed;
+bottom: 23px;
+right: 28px;
+width: 280px;
+}
+
+.open_button:hover {
+background-color: #ffb9b9;
+}
+
+.form_content {
+display: none;
+position: fixed;
+bottom: 0;
+right: 15px;
+border: 3px solid #f1f1f1;
+z-index: 9;
+}
+
+.form_container {
+max-width: 300px;
+padding: 10px;
+background-color: white;
+}
+
+.form_container input[type=text], .form_container input[type=email] {
+width: 90%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: #f1f1f1;
+}
+
+.form_container input[type=text]:focus, .form-container input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+.form_content .send {
+background-color: #26a728;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+}
+
+.form_content .close {
+background-color: #fd7f2a;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+}
+
+.form_content .send:hover, .form_content .close:hover {
+opacity: 1;
+}
+
+#description {
+font-style: italic;
+}
+
+.credits_content_left,
+.credits_content_right {
+display: inline-block;
+vertical-align: top;
+background-color: #ffffff;
+padding: 20px 24px;
+border-radius: 2px;
+border: 1px solid #ffffff;
+width: 330px;
+margin: 10px 20px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.credits_content_left h3,
+.credits_content_right h3 {
+margin-top: 0;
+margin-bottom: 12px;
+font-size: 20px;
+font-weight: 700;
+display: flex;
+align-items: center;
+gap: 6px;
+}
+
+.credits_content_left ul,
+.credits_content_right ul {
+margin: 0;
+padding-left: 20px;
+}
+
+.credits_content_left li,
+.credits_content_right li {
+margin-bottom: 6px;
+font-size: 16px;
+}
+
+#footer {
+font-style: italic;
+}
+
+.row {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#heading_name_credits {
+color: #43c4da;
+}
+
+.credits_heading {
+    margin-top: 80px;
+    padding: 0;
+}
+
+#row_heading {
+    text-align: center;
+    margin-top: 80px;
+    padding: 0;
+    box-sizing: border-box;
+    color: #43c4da;
+}
+
+#item_gumball {
+    width: 80%;
+    height: 80%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.small_heading {
+    color: #fd7f2a;
+}
+
+#description {
+    font-style: italic;
+}
+
+#message {
+    font-style: italic;
+}
+
+.column img {
+  border: 10px solid #ffffff;
+  border-bottom: 25px solid #ffffff;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  border-radius: 2px;
+}
