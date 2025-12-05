@@ -135,6 +135,13 @@ header nav > ul a:hover{
     height: 700px;
 }
 
+.carousel-caption h5,
+.carousel-caption p {
+    text-shadow: 
+        2px 2px 6px rgba(0, 0, 0, 0.9),
+        -2px -2px 6px rgba(0, 0, 0, 0.6);
+}
+
 .d-block w-100 {
     text-shadow: #000;
 }
@@ -503,6 +510,7 @@ color: #43c4da;
   border-radius: 2px;
 
 }
+
 
 
 
